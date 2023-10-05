@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Homepage from './pages/users/homepage';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <h1>Shop thiết bị điện tử</h1>
-);
+root.render(<Homepage />);
