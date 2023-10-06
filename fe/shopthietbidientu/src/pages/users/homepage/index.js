@@ -1,7 +1,10 @@
 import { memo } from "react";   
 
-const HomePage = () => {
-    return <h1>Hypertech</h1>
+const Homepage = () => {
+    return <>
+    <h1>Homepage</h1>
+    
+    </>
 };
 
-export default memo(HomePage);
+export default memo(Homepage);
